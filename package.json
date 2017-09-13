@@ -1,0 +1,19 @@
+{
+  "name": "robot-keep-awake",
+  "version": "0.0.1",
+  "description": "",
+  "main": "robot-keep-awake.js",
+  "bin": {
+    "robot-keep-awake": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "onwakeup": "0.0.1",
+    "robotjs": "^0.4.7"
+  }
+}
