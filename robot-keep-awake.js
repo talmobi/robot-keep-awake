@@ -1,10 +1,10 @@
 var robot = require( 'robotjs' )
 
-var INTERVAL = 5000 // ms
+var INTERVAL = 1000 * 45 // ms
 
 require( 'onwakeup' )( function () {
   console.log( '================================' )
-  console.log( '== COMPUTER AWOKED FORM SLEEP ==' )
+  console.log( '== COMPUTER AWOKE FROM SLEEP ==' )
   console.log( '== ' + ( new Date() )+ ' ==' )
   console.log( '================================' )
 } )
